@@ -46,7 +46,6 @@ footer{
 	font-weight: bold;
 	height: 50px;
 	position: absolute;
-	bottom: 0;
 	width: 100%;
 }
 footer p{
@@ -71,7 +70,7 @@ th{background-color: #008ae6; color: #fff; font-size: 20px; font-style: italic;}
 ol{margin-right: 40px;}
 ol li:nth-child(7){font-weight: bold;}
 
-/*@media only screen and (max-width: 360px){
+@media only screen and (max-width: 360px){
 	nav{
 		display: block;
 		float: none;
@@ -86,4 +85,7 @@ ol li:nth-child(7){font-weight: bold;}
 	footer{
 		display: none;
 	}
-}*/
+	#internet img{
+	margin-left: 0px;
+	}
+}
