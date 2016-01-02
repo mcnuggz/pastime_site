@@ -1,0 +1,91 @@
+
+body{
+	font-size: 16pt;
+	font-family: 'Verdana', Arial, sans-serif;
+}
+nav{
+	font-size: 18px;
+}
+nav ul li:nth-child(3){
+	margin-right: 30px;
+}
+nav span{
+	margin-top: 10px;
+}
+nav a{
+	margin-top: 15px;
+	margin-left: 20px;
+	font-weight: normal;
+	font-size: 16px;
+}
+nav a:hover{
+	text-decoration: none;
+	font-weight: 600;
+	font-style: italic;
+}
+nav a:nth-child(2){
+	margin-right:20px;
+}
+#lists{
+	margin-left: 10px; 
+	margin-right: 20px;
+}
+#series, #favs, #current h2{
+	font-style: italic;
+}
+#favs, #current, #series{height: 150px; margin-right: 0px;}
+#series{border-right: 1px solid #008AE6;}
+#favs{border-left: 1px solid #008AE6;}
+#history h2{margin-left: 20px;}
+#history p:nth-child(3){font-style: italic;}
+.clear{clear: both;}
+footer{
+	background-color: #008AE6; 
+	color: #000; 
+	font-style: italic; 
+	font-weight: bold;
+	height: 50px;
+	position: absolute;
+	width: 100%;
+}
+footer p{
+	padding-top: 15px;
+	margin-left: 30px;
+	color: #fff;
+	font-size: 16px;
+}
+#internet img{
+	margin-top: 155px;
+	margin-left: 155px;
+	margin-bottom: 15px;
+    box-shadow: 10px 10px 5px #CFCFCF;
+}
+.library{box-shadow: 0px 10px 5px #CFCFCF;}
+h2{font-weight: bold; font-style: italic;}
+th{background-color: #008ae6; color: #fff; font-size: 20px; font-style: italic;}
+.comp{margin-left: 30px;}
+.comp h2{margin-bottom: 15px; clear: both;}
+.class img{margin-left: 30px;}
+.pc{box-shadow: 10px 10px 5px #CFCFCF;}
+ol{margin-right: 40px;}
+ol li:nth-child(7){font-weight: bold;}
+
+@media only screen and (max-width: 360px){
+	nav{
+		display: block;
+		float: none;
+		margin: 0;
+		padding: 0;
+	}
+	span{
+		margin: 0;
+		float: none;
+		display: block;
+	}
+	footer{
+		display: none;
+	}
+	#internet img{
+	margin-left: 0px;
+	}
+}
